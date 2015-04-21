@@ -7,7 +7,9 @@ module.exports = function(grunt) {
 					'dist/shp.js': ['lib/index.js']
 				},
 				options: {
-					standalone: 'shp',
+					browserifyOptions: {
+						standalone: 'shp',
+					}
 				}
 			}
 		},
