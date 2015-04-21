@@ -40,7 +40,6 @@
   "dependencies": {
     "jszip": "git://github.com/calvinmetcalf/jszip.git#nobuffer",
     "lie": "^2.7.6",
-    "lru-cache": "^2.5.0",
     "parsedbf": "0.0.1",
     "proj4": "~2.1.0"
   },
